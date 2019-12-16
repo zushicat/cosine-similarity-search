@@ -4,6 +4,19 @@ Search short texts by cosine similarity of n-gram chars.
 This is a very simple example of finding cocktail names. The base corpus is a list of cocktail names, found in
 - /data/cocktailnames.txt
 
+### Prerequisite
+- Python 3.6
+
+If you like to run this in an environment:
+- install poetry (https://pypi.org/project/poetry/)
+- change to cosine-similarity-search dir (where .toml file is located)
+```
+$ poetry update
+$ poetry shell
+```
+
+Otherwise, install joblib, pandas and scikit-learn via pip.
+
 ### Usage of scripts in /src
 - 0_make_name_bi_grams.py
     - load corpus and transform each cocktail name into a string of bigrams, i.e.: "Zombie" -> "zo om mb bi ie"
