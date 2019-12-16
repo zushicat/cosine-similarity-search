@@ -53,5 +53,7 @@ mai tai
 ```
 
 Here, the vectorization and similarity calculation is done the "scikit way".
+
 But you certainly can take a look at /src/simple_example.py to see how to create a vector and the cosine similarity calculation "by hand". 
-see: https://stackoverflow.com/questions/1746501/can-someone-give-an-example-of-cosine-similarity-in-a-very-simple-graphical-wa
+
+see also: https://stackoverflow.com/questions/1746501/can-someone-give-an-example-of-cosine-similarity-in-a-very-simple-graphical-wa
